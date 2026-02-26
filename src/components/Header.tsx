@@ -25,8 +25,8 @@ export default function Header() {
                     <Link href="/uslugi" className="text-sm font-medium text-zinc-600 hover:text-amber-500 transition-colors">Usługi</Link>
                     <Link href="/cennik" className="text-sm font-medium text-zinc-600 hover:text-amber-500 transition-colors">Cennik</Link>
                     <Link href="/kontakt" className="text-sm font-medium text-zinc-600 hover:text-amber-500 transition-colors">Kontakt</Link>
-                    <a href={clinicConfig.facebookUrl} target="_blank" rel="noopener noreferrer" className="px-5 py-2.5 bg-amber-500 hover:bg-amber-400 text-white text-sm font-bold rounded-full transition-all shadow shadow-amber-500/20">
-                        Odwiedź Facebooka
+                    <a href={clinicConfig.facebookUrl} target="_blank" rel="noopener noreferrer" className="p-2 text-zinc-600 hover:text-zinc-900 transition-colors flex items-center justify-center" aria-label="Odwiedź naszego Facebooka">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" /></svg>
                     </a>
                 </nav>
 
@@ -52,7 +52,8 @@ export default function Header() {
                     <Link href="/uslugi" onClick={() => setIsOpen(false)} className="block py-2 text-zinc-600 font-medium border-b border-zinc-50">Usługi</Link>
                     <Link href="/cennik" onClick={() => setIsOpen(false)} className="block py-2 text-zinc-600 font-medium border-b border-zinc-50">Cennik</Link>
                     <Link href="/kontakt" onClick={() => setIsOpen(false)} className="block py-2 text-zinc-600 font-medium border-b border-zinc-50">Kontakt</Link>
-                    <a href={clinicConfig.facebookUrl} target="_blank" rel="noopener noreferrer" className="block w-full text-center py-3 mt-2 bg-amber-500 text-white font-bold rounded-xl">
+                    <a href={clinicConfig.facebookUrl} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 py-3 mt-2 bg-white text-zinc-600 font-bold rounded-xl hover:text-zinc-900 hover:bg-zinc-50 transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" /></svg>
                         Odwiedź Facebooka
                     </a>
                 </div>

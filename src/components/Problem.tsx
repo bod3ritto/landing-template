@@ -49,7 +49,7 @@ export default function Problem() {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ delay: 0.2 + index * 0.1 }}
-                            className="p-8 rounded-2xl bg-zinc-50 border border-zinc-200 shadow-sm hover:shadow-md hover:border-amber-200 transition-all group"
+                            className="p-8 rounded-2xl bg-zinc-50 border border-zinc-200 shadow-sm hover:shadow-md hover:-translate-y-1 hover:border-amber-200 transition-all group"
                         >
                             <div className="w-12 h-12 bg-amber-50 text-amber-500 flex items-center justify-center rounded-xl mb-6 group-hover:scale-110 transition-transform">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z" /><circle cx="12" cy="12" r="3" /></svg>

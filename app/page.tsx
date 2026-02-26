@@ -1,12 +1,14 @@
 import Hero from "@/src/components/Hero";
 import Problem from "@/src/components/Problem";
+import Faq from "@/src/components/Faq";
 import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between w-full overflow-x-hidden bg-white">
+    <main className="w-full overflow-x-hidden bg-white">
       <Hero />
       <Problem />
+      <Faq />
 
       <section className="py-24 bg-amber-50 w-full text-center">
         <div className="container mx-auto px-6 max-w-2xl">
